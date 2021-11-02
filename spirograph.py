@@ -204,7 +204,7 @@ def main():
 		spiro = Spiro(0, 0, col, *params)
 		spiro.draw()
 	else:
-		spiroAnim = SpiroAnimator(18)
+		spiroAnim = SpiroAnimator(18) #This number is the argument
 		turtle.onkey(spiroAnim.toggleTurtles, "t")
 		#Key handler to resart animation 
 		turtle.onkey(spiroAnim.restart, "space")
